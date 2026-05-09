@@ -1,1 +1,1 @@
-rootProject.name = "kry-watcher"
+rootProject.name = "http-service-watcher"

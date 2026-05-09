@@ -1,10 +1,9 @@
-version: '3.3'
 services:
   db:
-    image: mysql:8.0.28
+    image: mysql:9.2.0
     restart: always
     environment:
-      MYSQL_DATABASE: 'kry-db'
+      MYSQL_DATABASE: 'http-service-watcher-db'
       MYSQL_USER: 'alaz'
       MYSQL_PASSWORD: 'password'
       MYSQL_ROOT_PASSWORD: 'password'
